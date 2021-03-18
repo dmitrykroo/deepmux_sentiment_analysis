@@ -1,0 +1,5 @@
+name: h_test
+env: python3.7-tensorflow2.2-pytorch-1.6-cuda10.1
+python:
+  call: main:classify
+  requirements: requirements.txt
